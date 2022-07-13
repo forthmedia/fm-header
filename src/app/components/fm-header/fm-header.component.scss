@@ -1,0 +1,32 @@
+
+$fm-blue: #adadff;
+$fm-gold: #ffaa00;
+
+header {
+    background-color: $fm-blue;
+    height: 40px;
+    width: 100vw;
+    padding: 4px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .logo {
+        font-family: "Mukta", sans-serif;
+        font-weight: 500;
+        font-size: 1em;
+    }
+    .gold {
+        color: $fm-gold;
+    }
+    .black {
+        color: black;
+    }
+    .title {
+        font-family: "Mukta", sans-serif;
+        font-weight: 400;
+        font-size: 2em;
+        color: white;
+        opacity: 0.9;
+    }
+}
