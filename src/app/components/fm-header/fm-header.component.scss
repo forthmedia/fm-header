@@ -11,22 +11,29 @@ header {
     justify-content: center;
     align-items: center;
 
-    .logo {
-        font-family: "Mukta", sans-serif;
-        font-weight: 500;
-        font-size: 1em;
-    }
-    .gold {
-        color: $fm-gold;
-    }
-    .black {
-        color: black;
-    }
-    .title {
-        font-family: "Mukta", sans-serif;
-        font-weight: 400;
-        font-size: 2em;
-        color: white;
-        opacity: 0.9;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 4px;
+        width: 680px;
+
+        .logo {
+            font-family: "Mukta", sans-serif;
+            font-weight: 500;
+            font-size: 1em;
+        }
+        .gold {
+            color: $fm-gold;
+        }
+        .black {
+            color: black;
+        }
+        .title {
+            font-family: "Mukta", sans-serif;
+            font-weight: 300;
+            font-size: 1.1em;
+            color: white;
+            opacity: 0.9;
+        }
     }
 }

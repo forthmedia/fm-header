@@ -14,10 +14,15 @@ describe('FmHeaderComponent', () => {
 
     fixture = TestBed.createComponent(FmHeaderComponent);
     component = fixture.componentInstance;
+    component.title = 'Test'
     fixture.detectChanges();
   });
 
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('text property should equal Test', () =>{
+    expect(component.title).toEqual('Test');
+  })
 });
